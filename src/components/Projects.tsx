@@ -21,7 +21,7 @@ export const projects = [
 ]
 
 const techColors = {
-    "Jekyll": "bg-brown-500",
+    "Jekyll": "bg-blue-500",
     "NextJS": "bg-green-500",
 }
 
