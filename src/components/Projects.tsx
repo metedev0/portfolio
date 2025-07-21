@@ -7,43 +7,29 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        tech: "React",
-        link: "#",
+        title: "Ksozluk",
+        description: "Personal Turkish dictionary.",
+        tech: "Jekyll",
+        link: "https://ksozluk.github.io",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
-        tech: "React Native",
-        link: "#",
-    },
-    {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
-        link: "#",
-    },
-    {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
-        tech: "Python",
-        link: "#",
+        title: "MemeCommunity",
+        description: "Funny meme templates.",
+        tech: "NextJS",
+        link: "https://memecommunity.netlify.app",
     },
 ]
 
 const techColors = {
-    "React": "bg-blue-500",
-    "React Native": "bg-green-500",
-    "Vue.js": "bg-purple-500",
-    "Python": "bg-yellow-500",
+    "Jekyll": "bg-brown-500",
+    "NextJS": "bg-green-500",
 }
 
 export const Projects = () => {
     return (
         <>
             <h2 className="text-xl font-bold mb-4">
-                Featured Projects
+                Timeline
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 {projects.map((p, i) => (
