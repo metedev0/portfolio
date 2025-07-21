@@ -11,7 +11,7 @@ const jobs = [
         role: "Full-Stack Developer", // TODO: Replace with actual role
         company: "Freelance", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2022 - Presents",
+        duration: "2022 - Today",
         description:
             "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
         link: "#",
