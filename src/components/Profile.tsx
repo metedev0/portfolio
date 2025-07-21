@@ -54,9 +54,6 @@ export const Profile = () => {
                         {!isDesktopOrLaptop && <ThemeSwitcher />}
                     </div>
 
-                    <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a software developer & designer who enjoys creating simple, useful and user-friendly web experiences.
-                    </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume */}
                         {/* TODO: Add link to schedule a call with you using Calendly or Cal */}
