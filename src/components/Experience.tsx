@@ -9,7 +9,7 @@ import { JobImages } from "@/components/JobImages";
 const jobs = [
     {
         role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Metedev Inc.", // TODO: Replace with actual company name
+        company: "Freelance", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
         duration: "2022 - Presents",
         description:
