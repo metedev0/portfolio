@@ -8,7 +8,7 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
+        role: "Full-Stack Developer", // TODO: Replace with actual role
         company: "Freelance", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
         duration: "2022 - Presents",
@@ -18,7 +18,7 @@ const jobs = [
         images: [],
     },
     {
-        role: "Senior Frontend Developer", // TODO: Replace with actual role
+        role: "Frontend Developer", // TODO: Replace with actual role
         company: "Linkedin Inc.", // TODO: Replace with actual company name
         logo: "/linkedin.svg", // TODO: Replace with actual logo
         duration: "2020 - 2022",
