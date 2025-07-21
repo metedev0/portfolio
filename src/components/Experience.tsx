@@ -20,7 +20,7 @@ const jobs = [
     {
         role: "Senior Frontend Developer", // TODO: Replace with actual role
         company: "Linkedin Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
+        logo: "/linkedin.svg", // TODO: Replace with actual logo
         duration: "2020 - 2022",
         description:
             "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
