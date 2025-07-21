@@ -4,7 +4,7 @@ import Image from "next/image";
 import useMediaQuery from "@/hook/useMediaQuery";
 
 import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 import {
     Card,
@@ -18,11 +18,6 @@ const socials = [
         name: "Github",
         link: "https://github.com/metedev0",
         icon: <FaGithub className="size-4" />
-    },
-    {
-        name: "LinkedIn",
-        link: "https://linkedin.com/in/metedev",
-        icon: <FaLinkedin className="size-4" />
     },
     {
         name: "X (Twitter)",
